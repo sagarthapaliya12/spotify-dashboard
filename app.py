@@ -24,12 +24,12 @@ def run():
   
     @st.cache_data
     def load_data():
-        return pd.read_pickle('rsc\spotify2023.pkl')
+        return pd.read_pickle('rsc\\spotify2023.pkl')
 
-    df = load_data()
+    main_df = load_data()
     
     
-    sb.show_sidebar(df)
+    df = sb.show_sidebar(main_df)
     
     #Main Window
     
