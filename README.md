@@ -1,7 +1,13 @@
 # Welcome to streamlit
 
-This is the app you get when you run `streamlit hello`, extracted as its own app.
+### Setup virtual environment
+- python -m venv venv
+- venv\Scripts\Activate.ps1
 
-Edit [Hello.py](./Hello.py) to customize this app to your heart's desire. ❤️
 
-Check it out on [Streamlit Community Cloud](https://st-hello-app.streamlit.app/)
+### Install streamlit
+- pip install -r requirements.txt
+
+### Run streamlit
+- python -m streamlit run app.py
+
