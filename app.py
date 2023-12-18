@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit.logger import get_logger
-from component.metrics import show_metrics
+from metrics import show_metrics
 import component.sidebar as sb
 import pandas as pd
 import numpy as np
